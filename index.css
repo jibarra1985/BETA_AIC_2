@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", Menlo, monospace;
+}
+
+:root {
+  --bg-cream: #F8F6F0;
+  --bg-cream-surface: #FFFFFF;
+  --bg-cream-muted: #F2EFE8;
+  --border-cream: #E2DDD2;
+  --forest-green: #1B3B2B;
+  --forest-green-light: #244E39;
+  --forest-green-tint: #EAF2EC;
+  --charcoal: #1C1E20;
+  --grey-secondary: #4D5358;
+  --grey-muted: #767D84;
+}
+
+body {
+  background-color: #F8F6F0;
+  color: #1C1E20;
+  font-family: var(--font-sans);
+}
+
+/* Custom scrollbars for stately museum & financial console */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F2EFE8;
+}
+::-webkit-scrollbar-thumb {
+  background: #D2CCC0;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #1B3B2B;
+}
+
+/* Stately typography & selection */
+::selection {
+  background-color: #1B3B2B;
+  color: #F8F6F0;
+}

@@ -1,0 +1,6 @@
+{
+  "name": "ArtOS Financial Rails & Escrow",
+  "description": "Institutional financial rails for fine art featuring blockchain provenance tracking, multi-party automated escrow, and automated secondary market artist royalties.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
